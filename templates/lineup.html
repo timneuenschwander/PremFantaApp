@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Home - Fantasy PL{% endblock %}
+{% block content %}
+<h1>Top Lineup</h1>
+<ul>
+{% for player in players %}
+    <li>{{ player.name }} - {{ player.position }} - {{ player.points }} pts</li>
+{% endfor %}
+</ul>
+{% endblock %}
