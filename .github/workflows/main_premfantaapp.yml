@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'PremFantaApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEB1907621BF4ECC9883989F22C00918 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_28307F6807D641A0816372A1A23D975A }}
